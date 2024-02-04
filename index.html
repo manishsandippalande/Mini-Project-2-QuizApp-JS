@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h1 class="label">Quiz App</h1>
+        <div class="scorebox">
+            <div id="name">Manish</div>
+            <div id="score">100</div>
+        </div>
+        <!-- quiz app -->
+        <div class="quizbox" id="quizbox">
+            <b class="absol">Q</b>
+            <b id="question">What is your name?What is your name?What is your name?</b>
+            <div class="options-box">
+                <button class="opt" id="opt1" onclick="checkanswer(this)">Manish</button>
+                <button class="opt" id="opt2" onclick="checkanswer(this)">Sandip</button>
+                <button class="opt" id="opt3" onclick="checkanswer(this)">Pranita</button>
+                <button class="opt" id="opt4" onclick="checkanswer(this)">Sanika</button>
+            </div>
+        </div>
+        <div id="endboard">
+            <h3 style="margin-bottom: 4vh; color:red;">Scorecard</h3>
+            <h1 id="finalscore" style="width: 20vh; height: 20vh; border-radius: 100%; border: 3px solid rgb(0, 255, 26);" ></h1>
+            <a href="" id="ReAttempt">ReAttempt</a>
+        </div>
+        <div class="sign">
+            
+            manish
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
